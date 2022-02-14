@@ -3,17 +3,23 @@
     <head>
         <style>
             /*Titulo da Página, cor, tudo*/
-        #pag_cima{
+            #pag_cima{
                 display: flex;
-                width: 70%;
+                width: 100%;
                 height: 100px;
                 background-color: red;
                 align-items: center;
-                text-align: center;
-                justify-content: center;
-                align-items: center;
                 color: rgb(255, 255, 255);
                 margin: 5px;
+            }
+            #dentro_cima{
+                display: flex;
+                width: 48%;
+                height: 50px;
+                background-color: red;
+                align-items: center;
+                margin: 90px;
+                justify-content: space-between;
             }
             #pag_menu{
                 width: 15%;
@@ -48,8 +54,10 @@
         <!--Titulo da página-->
         <title>Mar Vermelho</title>
         <div id="pag_cima">
-            <img src="https://user-images.githubusercontent.com/98188181/152560019-7bcf0a8d-c130-493c-888f-2afe2c1331e1.png" width="40" height="40">
-            <h1 id="traco">Mar Vermelho</h1>
+            <div id="dentro_cima">
+                <img src="https://user-images.githubusercontent.com/98188181/152560019-7bcf0a8d-c130-493c-888f-2afe2c1331e1.png" width="40" height="40">
+                <h1 id="traco">Mar Vermelho</h1>
+            </div>
         </div>
         <!--Menu da Página-->
         <div id="pag_menu">
