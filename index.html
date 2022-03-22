@@ -56,12 +56,20 @@
                 max-width: 320px;
                 max-height: 800px;
                 margin: auto;
+                position: fixed;
             }
             #traco2{
                 text-decoration: underline;
             }
-            a{
+            nav a{
                 text-decoration: none;
+                display: block;
+                padding: 10px 14px;
+            }
+            nav a:hover{
+                transition: 0,5s;
+                background-color: rgba(18, 221, 11, 0.733);
+                color:rgb(255, 0, 0);
             }
         </style>
     </head>
@@ -75,15 +83,17 @@
             </div>
         </div>
         <!--Menu da Página-->
-        <div id="pag_menu">
-            <p id="traco">Qual pagina, deseja ir?</p>
-            <p><a href="https://luapablosda.github.io/projHistoria/">Historia</a></p>
-            <p><a href="https://luapablosda.github.io/projArtesanato/">Artesanato</a></p>
-            <p><a href="https://luapablosda.github.io/projTurismo/">Turismo</a></p>
-            <p><a href="https://luapablosda.github.io/projEscolas/">Escolas</a></p>
-            <p><a href="https://luapablosda.github.io/projFormContato/">Reporta...</a></p>
-
-        </div>
+        <nav>
+            <div id="pag_menu">
+                <p id="traco">Qual pagina, deseja ir?</p>
+                <p><a href="https://luapablosda.github.io/projHistoria/">Historia</a></p>
+                <p><a href="https://luapablosda.github.io/projArtesanato/">Artesanato</a></p>
+                <p><a href="https://luapablosda.github.io/projTurismo/">Turismo</a></p>
+                <p><a href="https://luapablosda.github.io/projEscolas/">Escolas</a></p>
+                <p><a href="https://luapablosda.github.io/projFormContato/">Reporta...</a></p>
+                
+            </div>
+        </nav>
         <!--Página Central-->
         <div id="pag_meio">
             <div id="dentro_meio">
